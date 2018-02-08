@@ -1,0 +1,74 @@
+/* div {
+    border: 1px solid black;
+} */
+body {
+    background-image: url(../images/body.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+#wrapper {
+    max-width: 1280px;
+     /* height: auto;Почему при мин-хейт пропадает лого? */
+    background-color: #ffd61a;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#header {
+    width: 100%;
+    height: 20%;
+    background-color: #FFFFFF;
+}
+
+#logo {
+    background-image: url(../images/logo.jpg);
+    height: 100%;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 1%;
+    float: left;
+}
+
+#freeField {
+    width: 70%;
+}
+
+#menu {
+    overflow: hidden;
+    background-color: #00DB49;
+    text-align: center;
+    /* padding: 2em; */
+}
+#menu a {
+    text-decoration: none;
+    color: #012E58;
+}
+#menu a:hover {
+    color: #00DB49;
+}
+
+#menu ul li {
+    background: #c9e9ffe0;
+    
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    list-style: none;
+    display: inline-block;
+    border: 0.1em solid #c9e9ffe0;
+    border-radius: 10px;
+    padding: 0.2em;
+    margin: 0.05em;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#leftBar {
+    width: 30%;
+    float: left;
+}
+
+#content {
+    width: 30%;
+    float: left;
+}
