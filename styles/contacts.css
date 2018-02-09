@@ -1,16 +1,11 @@
-/* div {
-    border: 1px solid black;
-} */
 body {
     background-image: url(../images/body.jpg);
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
     }
 
 #wrapper {
     max-width: 1280px;
-    min-height: 1024px; /* Почему при мин-хейт пропадает лого, ? */
+    height: 1024px; /* Почему при мин-хейт пропадает лого, ? */
     background-color: #ffd61a;
     margin: 0 auto;
     overflow: hidden;
@@ -21,12 +16,11 @@ body {
     height: 15%;
     background-color: #FFFFFF;
     overflow: hidden;
-    display: flex;
 }
 
 #logo {
     background-image: url(../images/logo.jpg);
-    height:100px; 
+    height:100%; 
     width: 30%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -36,8 +30,6 @@ body {
 
 #freeField {
     width: 70%;
-    /* height: 100%; */
-    text-align: center;
 }
 
 #menu {
@@ -72,7 +64,7 @@ body {
 
 #main {
     display: flex;
-    height: 69%;
+    height: 60%;
 }
 
 #leftBar {
@@ -88,25 +80,18 @@ body {
 }
 
 #footer {
-    height: 8%;
+    height: 17%;
     background-color: azure;
     overflow: hidden;
-    text-align: center;
-    }
+}
 
-#footerLi li {
+#footerLi {
     color: red;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
-    display: inline-block;
-    margin: 0 2%;
+    display: inline-block; /* Почему список не выстраивается в строку?*/
 } 
-
-#footerLi {
-    box-sizing: border-box;
-    padding: 1%;
-}
 
 #footerLi a {
     text-decoration: none;
