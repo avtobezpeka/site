@@ -79,11 +79,11 @@ body {
     text-indent: 5%;
 }
 
-#footer {
+/* #footer {
     height: 17%;
     background-color: azure;
     overflow: hidden;
-}
+} */
 
 #footerLi {
     color: red;
