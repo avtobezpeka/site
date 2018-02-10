@@ -80,6 +80,19 @@ body {
     float: left;
     background-color: crimson;
 }
+#leftBar ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#leftBar ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#leftBar ul li a:hover {
+    color: black;
+}
 
 #content {
     width: 70%;
